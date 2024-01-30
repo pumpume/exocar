@@ -9,11 +9,11 @@ st.write("I enjoy discovering Streamlit possibilities")
 st.write('plop')
 
 
-# link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv"
-# df_car = pd.read_csv(link)
+link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv"
+df_car = pd.read_csv(link)
 
-# st.write(df_car)
-# st.line_chart(df_car['hp'])
+st.write(df_car)
+st.line_chart(df_car['hp'])
 
 # st.write("Traitement données")
 # numeric_columns = df_car.select_dtypes(include=['float64', 'int64'])
