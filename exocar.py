@@ -4,6 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 st.title("Streamlit : build and share data apps")
+st.write("plop")
 
 
 link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv"
