@@ -12,7 +12,7 @@ df_car = pd.read_csv(link)
 st.write(df_car)
 st.line_chart(df_car['hp'])
 
-st.write("Traitement données")
+
 numeric_columns = df_car.select_dtypes(include=['float64', 'int64'])
 
 
