@@ -3,10 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# st.title('Hello Wilders, welcome to my application!')
-
-st.write("I enjoy discovering Streamlit possibilities")
-st.write('plop')
+st.title('Streamlit : build and share data apps')
 
 
 link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv"
