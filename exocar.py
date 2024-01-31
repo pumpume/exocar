@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-# st.title("Streamlit: Build and Share Data Apps")
+# titre
 st.markdown("## Streamlit: Build and Share Data Apps", unsafe_allow_html=True)
 
 
